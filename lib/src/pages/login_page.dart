@@ -34,6 +34,7 @@ class LoginPage extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                 helperText: "Nombre Usuario",
+                counterText: controller.state.userName,
                 border: OutlineInputBorder(
                   borderSide: BorderSide(),
                 ),
@@ -57,6 +58,7 @@ class LoginPage extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                 helperText: "Password",
+                counterText: controller.state.password,
                 border: OutlineInputBorder(
                   borderSide: BorderSide(),
                 ),
